@@ -1,0 +1,133 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+header {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+header h1 {
+  font-family: sans-serif;
+}
+
+header h2 {
+  font-family: sans-serif;
+}
+
+nav {
+  float: left;
+  width: 300px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+nav li {
+  list-style: none;
+}
+
+.indice a{
+  text-decoration: none;
+  font-family: sans-serif;
+  color: gray;
+}
+
+main img {
+  float: right;
+  overflow: hidden;
+  margin-top: 60px;
+}
+
+main {
+  width: 610px;
+  padding: 15px;
+  float: right;
+  overflow: hidden;
+}
+
+section {
+  border-left: 1px solid black;
+}
+
+section h3 {
+  padding-left: 30px;
+  font-family: sans-serif;
+}
+
+section article {
+  padding-left: 45px;
+  font-family: sans-serif;
+}
+
+section article p {
+  color: gray;
+  font-family: sans-serif;
+}
+
+section article h4 {
+  margin-bottom: -12px;
+}
+
+#entradas {
+  margin-bottom: 10px;
+}
+
+#platosprincipales {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#postres {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#bebidas {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.gotop {
+  text-decoration: none;
+  color: black;
+  margin-left: 30px;
+}
+
+.piedepagina {
+  background: rgb(216, 216, 216);
+  width: 100%;
+  overflow: hidden;
+  height: 117px;
+  padding: 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-top: 1px solid black;
+}
+
+.piedepagina img {
+  width: 17%;
+  position: relative;
+  left: 11px;
+}
+
+.contacto {
+  float: right;
+}
+
+.contacto li {
+  list-style: none;
+}
+
+.contacto li a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  position: relative;
+  right: 50px;
+  top: -20px;
+}
